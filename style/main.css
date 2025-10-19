@@ -7,7 +7,7 @@ html {
 
 body {
   /* Change to something you like, but please do customize the font! */
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: "Federo", sans-serif;
   line-height: 1.4;
   /* reset default margins */
   padding: 0;
@@ -15,7 +15,7 @@ body {
   box-sizing: border-box;
   /* Customize colors! */
   background: rgb(208, 180, 19);
-  color: rgb(208, 180, 19);
+  color: rgb(255, 255, 255);
 }
 h2 {
   color: rgb(28, 237, 9);

@@ -8,8 +8,10 @@
   width: 100%;
   min-height: 100dvh;
   background: #000000;
-  color: rgb(28, 237, 9);
-  font-family: Impact;
+  color: #1ced09;
+    font-family: "Tourney", sans-serif;
+  font-weight: bold
+  font-style: normal;
   font-weight: bold;
   font-size: 30px;
   text-align: center;
@@ -36,14 +38,21 @@
   text-decoration-color: #0033a0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .hero {
-    font-size: 45px;
+    font-size: 30px;
+  }
+  .hero h1 {
+    width: 30rem;
   }
 }
 
-@media (min-width: 801px) {
+@media (min-width: 1200px) {
   .hero {
-    font-size: 75px;
+    font-size: 70px;
   }
 }
+
+
+
+
