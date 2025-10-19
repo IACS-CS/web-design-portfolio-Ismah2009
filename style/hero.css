@@ -7,17 +7,21 @@
   /* Full screen hero section */
   width: 100%;
   min-height: 100dvh;
-  background: #0033a0;
-  color: white;
-  font-family: Futura;
+  background: #000000;
+  color: rgb(28, 237, 9);
+  font-family: Impact;
   font-weight: bold;
   font-size: 30px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .hero a {
-  color: white;
+  color: rgb(208, 180, 19);
   text-decoration: underline;
-  text-decoration-color: #c6093b;
+  text-decoration-color: rgb(28, 237, 9);
 }
 
 /* A little "activation" to demonstrate JS is working in the template */

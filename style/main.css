@@ -14,13 +14,13 @@ body {
   margin: 0;
   box-sizing: border-box;
   /* Customize colors! */
-  background: #f0f0f0;
-  color: #333;
+  background: rgb(208, 180, 19);
+  color: rgb(208, 180, 19);
 }
 h2 {
-  color: #0033a0;
+  color: rgb(28, 237, 9);
   text-decoration: underline;
-  text-decoration-color: #c6093b;
+  text-decoration-color: rgb(208, 180, 19);
   margin-bottom: 8px;
 }
 p {
@@ -34,4 +34,16 @@ main {
   line-height: 1.8; /* choose a line spacing */
   font-size: 18px; /* choose a font size */
   margin: 0 auto; /* center the content */
+}
+
+main section {
+  padding: 20px;
+  max-width: 45rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000000;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0,1);
 }
