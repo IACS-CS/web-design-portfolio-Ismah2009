@@ -8,7 +8,7 @@
   width: 100%;
   min-height: 100dvh;
   background: #000000;
-  color: #1ced09;
+  color: rgb(117 231 92);
   font-family: "Tourney", sans-serif;
   font-weight: bold;
   font-style: normal;
@@ -21,20 +21,20 @@
   align-items: center;
 }
 .hero a {
-  color: rgb(208, 180, 19);
+  color: rgb(161 124 69);
   text-decoration: underline;
-  text-decoration-color: rgb(28, 237, 9);
+  text-decoration-color: rgb(117 231 92);
 }
 
 main section p a {
-  color: rgb(208, 180, 19);
+  color: rgb(161 124 69);
   text-decoration: underline;
 }
 
 main section p a:hover {
-  color: rgb(28, 237, 9);
+  color:rgb(117 231 92);
   text-decoration: underline;
-  text-decoration-color: rgb(28, 237, 9);
+  text-decoration-color: rgb(117 231 92);
 }
 
 /* A little "activation" to demonstrate JS is working in the template */
@@ -49,18 +49,15 @@ main section p a:hover {
   text-decoration-color: #0033a0;
 }
 
-@media (max-width: 850px) {
-  .hero {
-    font-size: 30px;
-  }
-  .hero h1 {
-    width: 30rem;
+@media (max-width: 900px) {
+  .hero-header .hero-badge {
+    width: 7rem;
   }
 }
 
-@media (min-width: 1200px) {
-  .hero {
-    font-size: 70px;
+@media (max-width: 600px) {
+  .hero-header .hero-badge {
+    width: 5rem;
   }
 }
 
@@ -101,4 +98,11 @@ main section p a:hover {
   .hero-header h1 {
     font-size: 1.6rem;
   }
+}
+
+.hero-header .hero-badge {
+  width: 13rem;
+  filter: contrast(160%) saturate(140%);
+  drop-shadow: 0 0 18px rgba(208, 180, 19, 0.85);
+  transform: scale(1.05);
 }
