@@ -106,3 +106,31 @@ main section p a:hover {
   drop-shadow: 0 0 18px rgba(208, 180, 19, 0.85);
   transform: scale(1.05);
 }
+
+/* Falling gold + rocks overlay */
+#falling-sky {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+.falling-piece {
+  position: absolute;
+  top: -10vh;
+  left: 0;
+  font-size: 16px;
+  opacity: 0.22;          /* subtle */
+  filter: blur(0.1px);
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+  user-select: none;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  #falling-sky {
+    display: none;
+  }
+}
