@@ -32,7 +32,7 @@ main section p a {
 }
 
 main section p a:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(28, 237, 9);
   text-decoration: underline;
   text-decoration-color: rgb(28, 237, 9);
 }
