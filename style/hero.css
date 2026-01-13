@@ -26,6 +26,17 @@
   text-decoration-color: rgb(28, 237, 9);
 }
 
+main section p a {
+  color: rgb(208, 180, 19);
+  text-decoration: underline;
+}
+
+main section p a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  text-decoration-color: rgb(28, 237, 9);
+}
+
 /* A little "activation" to demonstrate JS is working in the template */
 .hero {
   transition: background 0.5s;
