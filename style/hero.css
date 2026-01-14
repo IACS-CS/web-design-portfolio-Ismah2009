@@ -26,12 +26,14 @@
   text-decoration-color: rgb(117 231 92);
 }
 
-main section p a {
+main section p a,
+main section li a {
   color: rgb(161 124 69);
   text-decoration: underline;
 }
 
-main section p a:hover {
+main section p a:hover,
+main section li a:hover {
   color:rgb(117 231 92);
   text-decoration: underline;
   text-decoration-color: rgb(117 231 92);
