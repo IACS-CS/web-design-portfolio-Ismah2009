@@ -1,4 +1,6 @@
 console.log();
+/* This code was generated with help from ChatGPT
+   in response to the prompt "Using JavaScript, add continous falling gold and rocks from the top of the site" - 01/13/2026 */
 // Subtle falling gold + rocks (continuous)
 // Works best with the #falling-sky div overlay in your HTML.
 

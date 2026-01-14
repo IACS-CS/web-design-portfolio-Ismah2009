@@ -37,17 +37,7 @@ main section p a:hover {
   text-decoration-color: rgb(117 231 92);
 }
 
-/* A little "activation" to demonstrate JS is working in the template */
-.hero {
-  transition: background 0.5s;
-}
-.hero.active {
-  background: #c6093b;
-}
-.hero.active a {
-  color: white;
-  text-decoration-color: #0033a0;
-}
+
 
 @media (max-width: 900px) {
   .hero-header .hero-badge {
@@ -103,10 +93,12 @@ main section p a:hover {
 .hero-header .hero-badge {
   width: 13rem;
   filter: contrast(160%) saturate(140%);
-  drop-shadow: 0 0 18px rgba(208, 180, 19, 0.85);
+  box-shadow: 0 0 18px rgba(208, 180, 19, 0.85);
   transform: scale(1.05);
 }
 
+/* This code was generated with help from ChatGPT
+   in response to the prompt "Using JavaScript, add continous falling gold and rocks from the top of the site" - 01/13/2026 */
 /* Falling gold + rocks overlay */
 #falling-sky {
   position: fixed;
